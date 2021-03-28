@@ -112,7 +112,7 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   padding-left: 2rem;
-  /* text-align: left; */
+
   border-radius: 1rem;
   border: 2px solid var(--secondary-color);
   box-shadow: 2px 2px 5px var(--grey);
@@ -120,17 +120,14 @@ main {
 }
 .component-image-container {
   max-width: 100%;
-  /* border: 2px solid black; */
 }
 .component-carbon-container {
   max-width: 100%;
-  /* border: 2px solid black; */
 }
 .component-description-container {
   max-width: 100%;
-  /* border: 2px solid black; */
 }
-/* -------------------Avatars------------- */
+/* -------------------Avatars------------------------------- */
 
 .avatar {
   border-radius: 50%;
@@ -214,8 +211,6 @@ main {
 .badge-container {
   display: flex;
   justify-content: space-between;
-  /* text-align: right; */
-  /* border: 2px solid black; */
 }
 
 .badge-icon {
@@ -229,7 +224,6 @@ main {
   border-radius: 50%;
   cursor: pointer;
   outline: none;
-  /* padding: ; */
 }
 
 .badge-image {
@@ -271,7 +265,6 @@ main {
   background-color: white;
   border: 1px solid white;
   border-radius: 100%;
-  /* color: var(--darkgreen); */
 }
 .plus {
   background-color: var(--darkblue);
@@ -314,7 +307,6 @@ main {
   width: 100%;
 }
 .button-icon {
-  /* text-align: center; */
   background-color: #c4b5fd;
   padding: 20px 20px;
   padding: auto;
@@ -325,7 +317,6 @@ main {
   cursor: pointer;
   opacity: 0.6;
   text-decoration: none;
-  /* width: 100%; */
 }
 .button-img {
   width: 20px;
@@ -346,7 +337,7 @@ main {
   padding: 1rem 2.5rem;
   background-color: var(--white);
   border: 1px solid var(--primary-color);
-  /* border: none; */
+
   outline: none;
   color: var(--primary-color);
   font-size: 1rem;
@@ -373,7 +364,7 @@ main {
 }
 .card {
   position: relative;
-  /* padding: 1rem; */
+
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(235, 229, 229);
@@ -540,12 +531,12 @@ input {
   background-color: var(--darkblue);
   color: white;
   width: 40%;
-  /* padding: 1rem 1.5rem; */
+
   border: none;
   border-radius: 0.5rem;
 }
 
-/* ------------lists--------------------------- */
+/* ----------------------------lists-------------------------------------------------- */
 
 .list {
   padding: 1rem;
@@ -583,7 +574,7 @@ input {
   transition: 0.2s;
 }
 
-/* ------------------nav---------------- */
+/* ---------------------------------nav------------------------------------------- */
 .navigation-bar {
   display: flex;
   flex-direction: row;
@@ -615,7 +606,7 @@ input {
   font-style: bold;
 }
 
-/* --------------modal--------------- */
+/* ------------------------------------modal-------------------------------- */
 .modal-container {
   display: flex;
   justify-content: center;
@@ -650,7 +641,7 @@ input {
   opacity: 0.6;
 }
 
-/* ----------------ratings-------------------- */
+/* ----------------------------ratings------------------------------------- */
 .label {
   display: inline-block;
   text-align: center;
@@ -691,7 +682,7 @@ input {
   margin-right: 5px;
 }
 
-/* ------------grids-------------- */
+/* --------------------------------------------grids------------------------------ */
 .grid-2 {
   display: grid;
 
@@ -710,7 +701,7 @@ input {
   background-color: var(--darkblue);
   margin: 5px;
 }
-/* --------------toast---------------- */
+/* ---------------------------------------toast--------------------------------- */
 
 .toast-button {
   border-radius: 2px;
@@ -774,4 +765,17 @@ input {
   width: 900px;
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-site {
+    display: none;
+  }
+
+  main {
+    margin-left: 0;
+    padding: 1rem;
+    background-color: whitesmoke;
+    max-width: 100%;
+  }
 }
