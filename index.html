@@ -9,6 +9,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <title>Zeen Ui</title>
   </head>
   <body>
@@ -51,6 +54,7 @@
        <h4>CSS file</h4>
        <div class="component-carbon-container">
         <iframe
+          title="Css setup code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%253Clink%2520rel%253D%2522stylesheet%2522%250A%2509%2509href%253D%2522https%253A%252F%252Fzeenui-dev.netlify.app%252Fstyles.css%2522%253E%250A%250A%2520%2509%253Clink%250A%2520%2520%2520%2520%2520%2509rel%253D%2522stylesheet%2522%250A%2520%2520%2520%2520%2520%2509href%253D%2522https%253A%252F%252Fstackpath.bootstrapcdn.com%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%2522%250A%2520%2520%2520%2520%2509%252F%253E"
             style="width: 980px; max-width: 100%; height: 333px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
@@ -59,6 +63,7 @@
       <h4>Javascript file</h4>
        <div class="component-carbon-container">
         <iframe
+        title="Js setup code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%253Cscript%2520type%253D%2522text%252Fjavascript%2522%250A%2509%2509src%253D%2522https%253A%252F%252Fzeenui-dev.netlify.app%252Fapp.js%2522%253E%250A%2509%253C%252Fscript%253E"
             style="width: 698px;max-width: 100%; height: 249px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
@@ -75,24 +80,25 @@
           <img
             src="./assets/img_avatar.png"
             alt="image-name"
-            class="avatar-large"
+            class="avatar-large margin-1"
           />
 
-          <img src="./assets/img_avatar.png" alt="image-name" class="avatar" />
+          <img src="./assets/img_avatar.png" alt="image-name" class="avatar margin-1" />
           <img
             src="./assets/img_avatar.png"
             alt="image-name"
-            class="avatar-small"
+            class="avatar-small margin-1"
           />
           <img
             src="./assets/img_avatar.png"
             alt="image-name"
-            class="avatar-square"
+            class="avatar-square margin-1"
           />
         </div>
 
         <div class="component-carbon-container">
           <iframe
+          title="Avatar component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fimg_avatar.png%2522%2520alt%253D%2522image-name%2522%2520class%253D%2522avatar%2522%2520%252F%253E"
             style="
               width: 780px;
@@ -138,6 +144,7 @@
         </div>
         <div class="component-carbon-container">
           <iframe
+          title="Alert component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2509%2520%253Cdiv%2520class%253D%2522alert%2520alert-red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520red%2520Alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert-button%2520alert-button-red%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
             style="
               width: 720px;
@@ -176,39 +183,42 @@
       <div class="component-div" id="badges">
         <h3>Badges</h3>
         <div class="badge-container">
-          <div>
+          <div class="individual-badge-container ">
             <button class="badge-icon notification">
               <img src="./assets/bell.svg" alt="bell" class="badge-image" />
             </button>
           </div>
 
-          <div>
+          <div class="individual-badge-container" >
             <button class="badge-icon notification">
               <img src="./assets/bell.svg" alt="bell" class="badge-image" />
               <span class="button-badge-number">13</span>
             </button>
           </div>
 
-          <div>
+          
+          
+
+          <div class="individual-badge-container" >
             <button class="badge-icon wishlist">
               <img src="./assets/heart.svg" alt="heart" class="badge-image" />
             </button>
           </div>
 
-          <div>
+          <div class="individual-badge-container">
             <button class="badge-icon wishlist">
               <img src="./assets/heart.svg" alt="heart" class="badge-image" />
               <span class="button-badge-number">7</span>
             </button>
           </div>
 
-          <div>
+          <div class="individual-badge-container">
             <button class="badge-icon cart">
               <img src="./assets/cart.svg" alt="cart" class="badge-image" />
             </button>
           </div>
 
-          <div>
+          <div class="individual-badge-container">
             <button class="badge-icon cart">
               <img src="./assets/cart.svg" alt="cart" class="badge-image" />
               <span class="button-badge-number">3</span>
@@ -217,6 +227,7 @@
         </div>
         <div class="component-carbon-container">
           <iframe
+            title="Badge component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2509%253Cbutton%2520class%253D%2522badge-icon%2520notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fbell.svg%2522%2520alt%253D%2522bell%2522%2520class%253D%2522badge-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button-badge-number%2522%253E13%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E"
             style="
               width: 790px;
@@ -234,9 +245,9 @@
         <h3>Avatar with Badges</h3>
 
         <div>
-          <div class="avatar-badge-container">
+          <div class="avatar-badge-container ">
             <img src="./assets/img_avatar.png" alt="placehold" class="avatar" />
-            <span class="avatar-badge color-green"
+            <span class="avatar-badge color-green "
               ><i class="fa fa-circle"></i
             ></span>
           </div>
@@ -256,6 +267,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Avatar badge component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%253Cdiv%2520class%253D%2522avatar-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fimg_avatar.png%2522%2520alt%253D%2522placehold%2522%2520class%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522avatar-badge%2520color-green%2522%253E%253Ci%2520class%253D%2522fa%2520fa-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
             style="
               width: 940px;
@@ -291,6 +303,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Button component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%253Cbutton%2520class%253D%2522button-primary-one%2522%253EPrimary%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522button-secondary-one%2522%253ESecondary%253C%252Fbutton%253E"
             style="
               width: 688px;
@@ -315,10 +328,24 @@
               src="./assets/shopping-cart.svg"
               alt="button-img"
           /></a>
-        </div>
+
+          <!-- <span class="material-icons ">
+            favorite_border
+            </span>
+
+            <span class="material-icons color-red" >
+              favorite
+              </span> -->
+          
+           
+        
+          
+          
+      
 
         <div class="container-carbon-component">
           <iframe
+            title="Link Button component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%253Ca%2520class%253D%2522button-primary%2522%2520href%253D%2522%2523%2522%253EPrimary%2520Link%253C%252Fa%253E%250A%2520%2520%2520%2520%250A%2509%253Ca%2520class%253D%2522button-secondary%2522%2520href%253D%2522%2523%2522%253ESecondary%2520Link%253C%252Fa%253E%250A%2520%250A%2509%253Ca%2520class%253D%2522button-icon%2522%2520href%253D%2522%2523%2522%253E%250A%2509%253Cimg%2520class%253D%2522button-img%2522%2520src%253D%2522.%252Fassets%252Fshopping-cart.svg%2522alt%253D%2522button-img%2522%252F%253E%250A%2509%253C%252Fa%253E"
             style="
               width: 880px;
@@ -368,6 +395,7 @@
         </div>
         <div class="container-carbon-component">
           <iframe
+          title="Social Icons component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Ca%2520class%253D%2522social-icons%2522%2520href%253D%2522https%253A%252F%252Fwww.gmail.com%2522%2520target%253D%2522_blank%2522%253E%250A%2520%2520%2520%2520%2509%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522social-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fpluspng.com%252Fimg-png%252Fgoogle-logo-png-open-2000.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Google%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2509%253C%252Fa%253E"
             style="
               width: 800px;
@@ -388,6 +416,7 @@
 
           <div class="container-carbon-component">
             <iframe
+              title=" Floating button component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%253Cbutton%2520class%253D%2522badge-icon%2520plus%2522%253E%252B%253C%252Fbutton%253E%2509"
               style="
                 width: 600px;
@@ -436,6 +465,7 @@
 
           <div class="component-carbon-container">
             <iframe
+              title="card component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fhrx.webp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EProduct%2520Name%253C%252Fh3%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-currentprice%2522%253ERs%253A500%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-product-originalprice%2522%253ERs%253A1200%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-prodcut-discount%2522%253E%2860%2525%2520Off%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520scrambled%2520it%2520to%2520make%2520a%2520type%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520specimen%2520book.%2520s%2520of%2520Lorem%2520Ipsum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 850px;
@@ -484,6 +514,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title="card with rating component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fhrx.webp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EProduct%2520Name%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-currentprice%2522%253ERs%253A500%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-product-originalprice%2522%253ERs%253A1200%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-prodcut-discount%2522%253E60%2525%2520Off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-badge%2522%253E4.3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520scrambled%2520it%2520to%2520make%2520a%2520type%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520specimen%2520book.%2520s%2520of%2520Lorem%2520Ipsum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 820px;
@@ -533,6 +564,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title="card with label  component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fhrx.webp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522label%2520card-label%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522Close-button%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EProduct%2520Name%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-currentprice%2522%253ERs%253A500%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-product-originalprice%2522%253ERs%253A1200%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-prodcut-discount%2522%253E60%2525%2520Off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-badge%2522%253E4.3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520printer%2520took%2520a%2520galley%2520of%2520type%2520and%2520scrambled%2520it%2520to%2520make%2520a%2520type%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520specimen%2520book.%2520s%2520of%2520Lorem%2520Ipsum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 820px;
@@ -576,6 +608,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title="card with shadow component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522card-image-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fhrx.webp%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253EProduct%2520Name%253C%252Fh3%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pricing%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-product-currentprice%2522%253ERs%253A500%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-product-originalprice%2522%253ERs%253A1000%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Cspan%2520class%253D%2522card-prodcut-discount%2522%253E%2850%2525%2520Off%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520eiusmod%2520tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-button-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 880px;
@@ -604,6 +637,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title="text only card component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-heading%2522%253ECard%2520Title%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520eiusmod%2520tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 880px;
@@ -648,6 +682,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="resposice image component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520%2520src%253D%2522.%252Fassets%252FResponsive.jpg%2522%250A%2520alt%253D%2522responsive-image%2522%2520class%253D%2522responsive-image%2522%252F%253E"
             style="
               width: 620px;
@@ -681,6 +716,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="input component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2522%2520%252F%253E"
             style="
               width: 482px;
@@ -702,6 +738,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="input component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520class%253D%2522searchbar%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E"
             style="
               width: 690px;
@@ -756,6 +793,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title="validation input component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2520%2520%253Cform%2520action%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522validation-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522validation-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522validation-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522validation-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pattern%253D%2522%252F%255E%255Ba-zA-Z0-9%21%2540%2523%255C%2524%2525%255C%255E%255C%2526*_%253D%252B-%255D%257B8%252C12%257D%2524%252Fg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522validation-input%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Confirm%2520Password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520name%253D%2522confirm-password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520pattern%253D%2522%252F%255E%255Ba-zA-Z0-9%21%2540%2523%255C%2524%2525%255C%255E%255C%2526*_%253D%252B-%255D%257B8%252C12%257D%2524%252Fg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input-submit%2522%2520type%253D%2522submit%2522%2520value%253D%2522Register%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
               style="
                 width: 850px;
@@ -796,6 +834,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="list component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cul%2520class%253D%2522list-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253Elist%2520item%2520one%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253Elist%2520item%2520two%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253Elist%2520item%2520three%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list%2522%253Elist%2520item%2520four%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
             style="
               width: 672px;
@@ -840,6 +879,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title=" Stacked list component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked%2522%253ENotification%2520one%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked%2522%253ENotification%2520two%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked%2522%253ENotification%2520three%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked%2522%253ENotification%2520four%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list-stacked%2522%253ENotification%2520five%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
             style="
               width: 820px;
@@ -916,6 +956,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title=" Nav component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cnav%2520class%253D%2522navigation-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522unordered-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navigation-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522navigation-list-link%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navigation-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522navigation-list-link%2522%253ECategories%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522navigation-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navigation-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-icon%2520notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fbell.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522bell%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button-badge-number%2522%253E13%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navigation-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-icon%2520wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fheart.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522heart%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button-badge-number%2522%253E7%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522navigation-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge-icon%2520cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522.%252Fassets%252Fcart.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cart%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button-badge-number%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E"
             style="
               width: 900px;
@@ -952,6 +993,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title=" Modal component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%2520id%253D%2522show-modal%2522%253EShow%2520Modal%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%2520id%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EThis%2520is%2520a%2520modal%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Placeat%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520odit%2520corporis%2520minima%2520quibusdam%2520odio%2520est%2520voluptatem%2520sapiente%2520nisi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520itaque%2520doloribus%2520voluptas%2520a%2520quae%252C%2520fugiat%2520temporibus%2520aperiam.%2520Ea%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ipsam%2520optio%2520soluta.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button-primary-one%2522%2520id%253D%2522close-modal%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
             style="
               width: 940px;
@@ -993,6 +1035,7 @@
 
           <div class="component-carbon-container">
             <iframe
+            title=" Ratings component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522star1%2520star-selected%2522%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522star2%2520star-selected%2522%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522star3%2520star-selected%2522%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522star4%2520star-not-selected%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522star5%2520star-not-selected%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
               style="
                 width: 931px;
@@ -1006,6 +1049,7 @@
             >
             </iframe>
             <iframe
+            title=" Ratings component code"
               src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cbutton%2520class%253D%2522badge-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522rating-badge%2522%253E4.3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2509%2509"
               style="
                 width: 690px;
@@ -1029,6 +1073,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title=" Label component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522label%2522%253ENew%253C%252Fspan%253E"
             style="
               width: 508px;
@@ -1076,6 +1121,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Grid component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522grid-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
             style="
               width: 612px;
@@ -1119,6 +1165,7 @@
 
         <div class="component-carbon-container">
           <iframe
+            title="Grid component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522grid-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Content%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
             style="
               width: 612px;
@@ -1144,6 +1191,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Toast component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520onclick%253D%2522showToast%28%29%2522%2520class%253D%2522toast-button%2522%253EShow%2520toast%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522toastDiv%2522%253EToast%2520Message%253C%252Fdiv%253E"
             style="
               width: 800px;
@@ -1173,6 +1221,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Text-utilities styles component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cp%2520class%253D%2522small-text%2522%253EThis%2520is%2520a%2520small%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522bold-text%2522%253EThis%2520is%2520a%2520bold%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522italic-text%2522%253EThis%2520is%2520an%2520italic%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522underlined-text%2522%253EThis%2520is%2520an%2520underlined%2520text%253C%252Fp%253E"
             style="
               width: 810px;
@@ -1197,6 +1246,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Text-utilities color component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cp%2520class%253D%2522grey-text%2522%253EThis%2520is%2520a%2520grey%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522blue-text%2522%253EThis%2520is%2520a%2520blue%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522red-text%2522%253EThis%2520is%2520a%2520red%2520text%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522green-text%2522%253EThis%2520is%2520a%2520green%2520text%253C%252Fp%253E"
             style="
               width: 716px;
@@ -1220,6 +1270,7 @@
 
         <div class="component-carbon-container">
           <iframe
+          title="Text-utilities aligned component code"
             src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C0%29&t=blackboard&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cp%2520class%253D%2522align-right%2522%253EText%2520aligned%2520right%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522align-center%2522%253EText%2520aligned%2520center%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522align-left%2522%253EText%2520aligned%2520left%253C%252Fp%253E"
             style="
               width: 724px;
