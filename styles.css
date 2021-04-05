@@ -354,7 +354,7 @@ main {
 }
 
 .button-primary-one {
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
   outline: none;
@@ -364,7 +364,7 @@ main {
   cursor: pointer;
 }
 .button-secondary-one {
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   background-color: var(--white);
   border: 1px solid var(--primary-color);
 
@@ -802,6 +802,9 @@ input {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
   .nav-site {
     display: none;
   }
